@@ -2,8 +2,11 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #333;
-  background-image: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pexels.com%2Fphoto%2Fman-doing-boxing-163403%2F&psig=AOvVaw1Avq4lroQJxXwyHxJQ_5me&ust=1714480506835000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCLCq99-354UDFQAAAAAdAAAAABAE);
+  background-color: #000000a4;
+  background-image: url(https://images.pexels.com/photos/163403/box-sport-men-training-163403.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+  background-size: cover;
+  background-position: center;
+  opacity: 0.9;
 }
 
 p{
@@ -15,6 +18,7 @@ header {
   color: #fff;
   padding: 1em;
   text-align: center;
+  opacity: 0.9;
 }
 
 nav ul {
@@ -104,7 +108,7 @@ button:hover {
 
 @keyframes fadeIn {
   0% { opacity: 0; }
-  100% { opacity: 1; }
+  100% { opacity: 0.9; }
 }
 
 .fade-in {
